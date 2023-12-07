@@ -8,7 +8,7 @@ Usage: ./2_do_deploy_web_static.py do_deploy
 from fabric.api import env, task, put, run, sudo
 from os import path
 
-env.hosts = ['52.3.220.157:80', '54.197.21.177:80']
+env.hosts = ['52.3.220.157', '54.197.21.177']
 env.user = 'ubuntu'
 
 
